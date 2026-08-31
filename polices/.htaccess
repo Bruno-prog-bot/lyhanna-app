@@ -1,0 +1,4 @@
+# Polices de repli (miroir, chemins versionnés) : cache long.
+<IfModule mod_headers.c>
+  Header always set Cache-Control "public, max-age=31536000, immutable"
+</IfModule>
