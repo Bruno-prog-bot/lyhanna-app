@@ -54,6 +54,6 @@ _flutter.loader.load({
     fontFallbackBaseUrl: "polices/",
   },
   serviceWorkerSettings: {
-    serviceWorkerVersion: "3664214019" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
+    serviceWorkerVersion: "3633313555" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
   },
 });

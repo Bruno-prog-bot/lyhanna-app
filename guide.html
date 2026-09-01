@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Lyhanna — Guide du testeur</title>
+<style>
+  :root { --encre:#1c1c22; --fond:#f7f7fa; --carte:#ffffff; --accent:#4527A0;
+          --vert:#2E7D32; --orange:#E65100; --bord:#e3e3ea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --encre:#ececf2; --fond:#131318; --carte:#1d1d25;
+            --accent:#b39ddb; --vert:#81c784; --orange:#ffb74d; --bord:#2c2c36; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.55 system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+         color:var(--encre); background:var(--fond); }
+  main { max-width:720px; margin:0 auto; padding:20px 16px 60px; }
+  h1 { font-size:1.6rem; margin:.2em 0 .1em; }
+  h2 { font-size:1.15rem; margin:1.6em 0 .5em; color:var(--accent); }
+  .sous { opacity:.75; margin-top:0; }
+  .carte { background:var(--carte); border:1px solid var(--bord);
+           border-radius:14px; padding:14px 16px; margin:10px 0; }
+  .carte h3 { margin:.1em 0 .3em; font-size:1rem; }
+  .carte p { margin:.3em 0; font-size:.95rem; }
+  .puce { display:inline-block; min-width:1.6em; text-align:center; }
+  .note { border-left:4px solid var(--orange); padding-left:12px; font-size:.92rem; }
+  .ok { color:var(--vert); font-weight:600; }
+  a { color:var(--accent); }
+  ul { padding-left:1.2em; } li { margin:.25em 0; }
+  footer { margin-top:40px; font-size:.85rem; opacity:.7; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Lyhanna</h1>
+  <p class="sous">Guide du testeur — merci de nous aider à la rendre irréprochable.</p>
+
+  <h2>À quoi sert Lyhanna ?</h2>
+  <div class="carte">
+    <p><strong>Lyhanna protège sans surveiller.</strong> Elle aide un protégé
+    (enfant, ado ou adulte) à laisser une trace sûre de ses déplacements et à
+    prévenir ses proches en cas de besoin — et, si le pire arrive, à donner
+    aux secours et aux forces de l'ordre un dossier immédiatement utilisable.</p>
+    <p>Ses principes, non négociables&nbsp;:</p>
+    <ul>
+      <li><strong>Jamais d'espionnage.</strong> Les trajets vont dans un
+        <em>coffre scellé</em> que même les parents ne peuvent pas ouvrir.
+        Ils ne servent qu'en cas de procédure, et sont effacés après 7 jours.</li>
+      <li><strong>Le doute favorise la protection.</strong> En cas d'incertitude,
+        l'application préfère enregistrer pour rien que manquer le trajet
+        qui aurait compté.</li>
+      <li><strong>Un geste qui n'aboutit pas le dit.</strong> Jamais d'échec
+        silencieux.</li>
+      <li>Données hébergées en Europe.</li>
+    </ul>
+  </div>
+
+  <h2>Les deux vues</h2>
+  <div class="carte">
+    <p>En haut de l'accueil, un interrupteur sépare
+    <strong>«&nbsp;Me protéger&nbsp;»</strong> (tes propres protections) et
+    <strong>«&nbsp;Protéger un proche&nbsp;»</strong> (les personnes que tu
+    veilles&nbsp;: tu reçois leurs alertes et suis leurs demandes).</p>
+  </div>
+
+  <h2>Les fonctions, une à une</h2>
+  <div class="carte"><h3>🔔 J'ai besoin d'aide (le bouton rond central)</h3>
+    <p>Le geste vital&nbsp;: un appui prévient immédiatement tes personnes de
+    confiance, avec ta position. Sans réseau, l'alerte est conservée et part
+    toute seule au retour de la connexion — et l'écran te le dit.</p></div>
+  <div class="carte"><h3>⏺️ Enregistrer mon trajet</h3>
+    <p>Enregistre ton parcours dans le coffre scellé (toi seul peux le
+    consulter). S'arrête tout seul à l'arrivée dans une zone sûre, ou d'un
+    toucher. Fonctionne écran éteint, en mode avion, batterie faible.</p></div>
+  <div class="carte"><h3>📷 Photo sécurité</h3>
+    <p>Photographie ta tenue du jour, une personne rencontrée, un lieu&nbsp;:
+    gardée au coffre, précieuse si on doit te chercher.</p></div>
+  <div class="carte"><h3>🏃 Venez me chercher</h3>
+    <p>Demande à un proche de venir te chercher&nbsp;: il voit ta position le
+    temps du trajet, et tout s'arrête à l'arrivée. C'est du confort — rien de
+    rouge, annulable.</p></div>
+  <div class="carte"><h3>🚗 On m'accompagne</h3>
+    <p>Signale que quelqu'un t'accompagne. Le trajet est suivi, et le bouton
+    devient «&nbsp;Je suis bien arrivé&nbsp;» pour rassurer tes proches.</p></div>
+  <div class="carte"><h3>📤 Partager</h3>
+    <p>Partage ta position en direct avec un proche, pour la durée que tu
+    choisis. Tu es prévenu quand quelqu'un la consulte.</p></div>
+  <div class="carte"><h3>🛡️ Zones sûres</h3>
+    <p>Tes lieux de confiance (maison, école, sport…). Si tu actives la
+    protection automatique, <strong>sortir d'une zone déclenche tout seul
+    l'enregistrement</strong> du trajet — et l'arrivée dans une zone l'arrête.</p></div>
+  <div class="carte"><h3>🕐 Emploi du temps</h3>
+    <p>Tes créneaux réguliers (école à 8&nbsp;h…)&nbsp;: l'enregistrement
+    démarre automatiquement à l'heure prévue, moins la marge d'anticipation
+    que tu règles (pour les départs en avance). Heure locale de ton téléphone,
+    où que tu sois dans le monde.</p></div>
+  <div class="carte"><h3>🗺️ Mes trajets</h3>
+    <p>Revois tes trajets sur la carte. Conservés 7 jours. «&nbsp;Retirer&nbsp;»
+    un trajet le sort de ta vue&nbsp;; rien n'est détruit tant qu'une procédure
+    pourrait en avoir besoin.</p></div>
+  <div class="carte"><h3>📁 Dossiers de disparition</h3>
+    <p>Tout en bas des accueils&nbsp;: les dossiers qui te concernent, visibles
+    dès leur création, avec leur journal en direct. En cas de disparition, le
+    déclarant constitue un pré-dossier transmis au 17 — chaque étape se voit.</p></div>
+  <div class="carte"><h3>💬 Messagerie &amp; personnes de confiance</h3>
+    <p>En haut de l'écran&nbsp;: les échanges protégé↔protecteurs (texte et
+    vocal) et la gestion de tes personnes de confiance (chacune donne son
+    accord).</p></div>
+
+  <p class="note"><strong>Bulles d'aide dans l'app&nbsp;:</strong> menu ⋮ (en
+  haut à droite) → «&nbsp;Bulles d'aide&nbsp;». Des badges ⓘ apparaissent sur
+  les boutons&nbsp;: touche un badge pour l'explication — le bouton, lui,
+  reste direct. Re-touche l'entrée du menu pour les masquer.</p>
+
+  <h2>Tester sur Android</h2>
+  <div class="carte">
+    <p>Installe l'APK reçu (autorise l'installation depuis cette source), puis
+    accorde&nbsp;: localisation <strong>«&nbsp;Toujours&nbsp;»</strong>,
+    notifications, et l'exemption d'optimisation batterie quand l'app la
+    demande. Tout fonctionne, arrière-plan compris.</p>
+  </div>
+  <h2>Tester sur iPhone (version web)</h2>
+  <div class="carte">
+    <p>Ouvre <a href="./">l'application web</a> dans Safari (Partager →
+    «&nbsp;Sur l'écran d'accueil&nbsp;» pour une icône). Tout est utilisable
+    <strong>tant que la page est ouverte et l'écran allumé</strong> — seule
+    l'application mobile protège en arrière-plan (l'app iPhone native arrive).</p>
+  </div>
+
+  <h2>Ce qui nous aide vraiment</h2>
+  <div class="carte">
+    <ul>
+      <li>Note <strong>marque, modèle et version Android</strong> de ton téléphone.</li>
+      <li>Note <strong>l'heure exacte</strong> de ce que tu observes (un
+        déclenchement, un arrêt, une bizarrerie) — nous relisons tout côté
+        serveur à la seconde près.</li>
+      <li>Provoque des situations réelles&nbsp;: écran éteint, autres applis,
+        mode avion, économie d'énergie, batterie faible, redémarrage.</li>
+      <li>Dis aussi ce qui t'a semblé <strong>peu clair</strong> — c'est un
+        défaut au même titre qu'une panne.</li>
+    </ul>
+  </div>
+
+  <footer>Lyhanna — protection sans surveillance. Guide testeurs.</footer>
+</main>
+</body>
+</html>
